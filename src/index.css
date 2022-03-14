@@ -67,6 +67,8 @@ h4{
   .center_div{
     width:100%;
     padding: 0;
+    border:none;
+    box-shadow: 0;
   }
 }
 
