@@ -60,12 +60,6 @@ h4{
   letter-spacing: 2px;
 }
 @media (max-width: 768px){
-  body{
-    overflow: hidden;
-  }
-  .container{
-    padding:2em 0;
-  }
   .center_div{
     width:95%;
     height:82vh;
