@@ -63,6 +63,7 @@ h4{
 @media (max-width: 768px){
   .container{
     padding:2em 0;
+    overflow:hidden;
   }
   .center_div{
     width:100%;
