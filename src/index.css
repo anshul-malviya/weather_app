@@ -8,7 +8,6 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     background: linear-gradient(to right, skyblue, pink);
-    overflow: hidden;
 }
 
 code {
@@ -63,7 +62,7 @@ h4{
 }
 @media (max-width: 768px){
   .container{
-    padding:0;
+    padding:2em 0;
   }
   .center_div{
     width:100%;
