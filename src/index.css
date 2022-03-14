@@ -16,16 +16,15 @@ code {
 }
 .container{
   padding:2em 0;
-  height: 90%;
+  height: 100vh;
 }
 .center_div{
   margin-inline:auto;
   width: min(50%, 70.5rem);
-  height:89vh;
+  height:90vh;
   text-align:center;
   padding: 2em 0;
   background:url("../image/weather.gif");
-  background-repeat: no-repeat;
   border-top-left-radius:25px;
   border-bottom-right-radius:25px;
   box-shadow: 5px 5px 25px 1px rgba(0,0,0,0.3);
@@ -62,13 +61,10 @@ h4{
 }
 @media (max-width: 768px){
   .container{
-    padding:1em 0;
+    padding:0;
   }
   .center_div{
     width:100%;
-    padding: 0;
-    border:none;
-    box-shadow: 0;
   }
 }
 
