@@ -24,7 +24,7 @@ img{
 .center_div{
   margin-inline:auto;
   width: min(50%, 70.5rem);
-  height:95vh;
+  height:90vh;
   text-align:center;
   padding: 2em 0;
   background:url("../image/weather.gif");
