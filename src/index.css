@@ -16,7 +16,7 @@ code {
 }
 .container{
   padding:2em 0;
-  height: 93%;
+  height: 95%;
 }
 .center_div{
   margin-inline:auto;
@@ -66,7 +66,6 @@ h4{
   }
   .center_div{
     width:100%;
-    padding:0;
   }
 }
 
