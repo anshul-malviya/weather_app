@@ -7,15 +7,16 @@ const App = () => {
   const [city, setCity] = useState(null);
 
   useEffect(() => {
-    foreCast(search);
-  }, [search])
+    const foreCast = async () => {
+      const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=511dcda4cab78272eba8ac7e872115de`
+      const response = await fetch(url);
+      const resjson = await response.json();
+      setCity(resjson.main);
+    }
+    foreCast();
+  },[search])
 
-  const foreCast = async () => {
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=511dcda4cab78272eba8ac7e872115de`
-    const response = await fetch(url);
-    const resjson = await response.json();
-    setCity(resjson.main);
-  }
+ 
 
   const inputHandler = (e) => {
     setSearch(e.target.value);
