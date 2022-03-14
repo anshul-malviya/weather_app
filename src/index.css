@@ -8,6 +8,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     background: linear-gradient(to right, skyblue, pink);
+    overflow: hidden;
 }
 
 code {
