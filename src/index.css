@@ -25,6 +25,7 @@ code {
   text-align:center;
   padding: 2em 0;
   background:url("../image/weather.gif");
+  background-repeat: no-repeat;
   border-top-left-radius:25px;
   border-bottom-right-radius:25px;
   box-shadow: 5px 5px 25px 1px rgba(0,0,0,0.3);
