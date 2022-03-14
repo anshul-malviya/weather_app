@@ -7,7 +7,7 @@ const App = () => {
   const [city, setCity] = useState(null);
 
   useEffect(() => {
-    foreCast();
+    foreCast(search);
   }, [search])
 
   const foreCast = async () => {
