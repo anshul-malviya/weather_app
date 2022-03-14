@@ -15,9 +15,7 @@ const App = () => {
     }
     foreCast();
   },[search])
-
- 
-
+  
   const inputHandler = (e) => {
     setSearch(e.target.value);
   }
